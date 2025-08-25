@@ -1,0 +1,117 @@
+
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #f9c6c9;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav h1 { margin: 0; }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 40px;
+      margin: 0;
+      padding: 0;
+    }
+    nav li a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+    }
+    nav li a:hover { color: white; }
+    .searchbar {
+      padding: 40px;
+      text-align: center;
+    }
+    input {
+      padding: 15px;
+      width: 60%;
+    }
+    .home-section {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .home-section img {
+      width: 300px;
+      margin-top: 20px;
+    }
+    .featured-menu {
+      padding: 40px;
+      text-align: center;
+    }
+    .sweet-container-row {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    .sweet-column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .sweet-card {
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+    }
+    .sweet-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .about-section, .contact-section {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    .about-section h2, .contact-section h2 {
+      margin-bottom: 20px;
+    }
+    /* Recipes Section */
+    .recipes-section {
+      padding: 50px 20px;
+      background: #fff7f8;
+      text-align: center;
+    }
+    .recipe-list {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .recipe-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+    .recipe-card h3 {
+      margin-top: 0;
+    }
+    #topBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 8px 10px;
+      background: #f9c6c9;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  
